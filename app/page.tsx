@@ -19,13 +19,6 @@ export default function Home() {
 
   const products = [
     {
-      name: "TripDays",
-      description: "Figure out how many days you really need in each city.",
-      url: "https://tripdays.co",
-      color: "from-emerald-500 to-teal-500",
-      icon: "🗺️",
-    },
-    {
       name: "ProblemFinder",
       description: "Validate startup ideas instantly using AI.",
       url: "https://problemfinder.ai",
@@ -33,18 +26,18 @@ export default function Home() {
       icon: "🤖",
     },
     {
-      name: "HowWriteACheck",
-      description: "Learn how to write a check in the U.S. — simple and clear.",
-      url: "https://howwriteacheck.com",
-      color: "from-amber-500 to-orange-500",
-      icon: "💸",
-    },
-    {
       name: "The Weather Tomorrow",
       description: "Clean, no-nonsense weather forecasts for tomorrow.",
       url: "https://theweathertomorrow.co",
       color: "from-sky-500 to-blue-500",
       icon: "🌤️",
+    },
+    {
+      name: "DetectordeIA",
+      description: "Detect AI-generated content with high accuracy.",
+      url: "https://detectordeia.ai",
+      color: "from-rose-500 to-pink-500",
+      icon: "🔍",
     },
   ]
 
