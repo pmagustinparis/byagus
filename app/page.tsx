@@ -26,13 +26,6 @@ export default function Home() {
       icon: "🤖",
     },
     {
-      name: "The Weather Tomorrow",
-      description: "Clean, no-nonsense weather forecasts for tomorrow.",
-      url: "https://theweathertomorrow.co",
-      color: "from-sky-500 to-blue-500",
-      icon: "🌤️",
-    },
-    {
       name: "DetectordeIA",
       description: "Detect AI-generated content with high accuracy.",
       url: "https://detectordeia.ai",
