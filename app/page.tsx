@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 import Link from "next/link"
-import { ExternalLink, Twitter, Github, Menu, X, Mail } from "lucide-react"
+import { ExternalLink, Twitter, Github, Menu, X, Mail, Linkedin } from "lucide-react"
 import { motion } from "framer-motion"
 
 export default function Home() {
@@ -31,6 +31,13 @@ export default function Home() {
       url: "https://detectordeia.ai",
       color: "from-rose-500 to-pink-500",
       icon: "🔍",
+    },
+    {
+      name: "IntroEnergy",
+      description: "Boost your energy and productivity naturally.",
+      url: "https://introenergy.app",
+      color: "from-yellow-500 to-orange-500",
+      icon: "⚡",
     },
   ]
 
@@ -285,6 +292,14 @@ export default function Home() {
                 className="px-6 py-3 bg-gradient-to-r from-emerald-500 to-teal-500 text-white font-medium rounded-lg hover:opacity-90 transition-opacity text-center"
               >
                 Send me an email
+              </Link>
+              <Link
+                href="https://www.linkedin.com/in/agustinparis/"
+                target="_blank"
+                className="px-6 py-3 flex items-center justify-center gap-2 bg-zinc-700 text-white font-medium rounded-lg hover:bg-zinc-600 transition-colors"
+              >
+                <Linkedin className="h-4 w-4" />
+                Connect on LinkedIn
               </Link>
               <Link
                 href="https://twitter.com/builtbyagus"
