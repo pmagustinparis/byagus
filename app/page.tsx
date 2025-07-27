@@ -34,7 +34,7 @@ export default function Home() {
     },
     {
       name: "IntroEnergy",
-      description: "Boost your energy and productivity naturally.",
+      description: "Social energy tracking for introverts.",
       url: "https://introenergy.app",
       color: "from-yellow-500 to-orange-500",
       icon: "⚡",
