@@ -205,7 +205,7 @@ export default function Home() {
         </section>
 
         {/* Code-inspired divider */}
-        <div className="w-full overflow-hidden py-8 bg-zinc-900/50">
+        <div className="w-full overflow-hidden py-4 bg-zinc-900/50">
           <div className="container mx-auto px-4">
             <div className="text-zinc-600 font-mono text-sm overflow-x-auto whitespace-nowrap">
               <span className="text-emerald-500">const</span> <span className="text-purple-400">agus</span> = {"{"}
